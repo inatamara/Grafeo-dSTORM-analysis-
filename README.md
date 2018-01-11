@@ -1,4 +1,4 @@
-# Grafeo-dSTORM-analysis-
-
-Grafeo program will be uploded this week ...
-Grafeo is a matlab-based program for analysis of one or two color 2D or 3D dSTORM data. It works on molecular coordinate list. Grafeo is compatible with Nikon N-STORM molecular list txt files and in near future will be extended to work with Zeiss or Leica STORM files. Grafeo analysis is based on multiple approaches e.g. Voronoi diagrams, Delaunay triangulation, Ripley's function.
+Grafeo is Matlab based program for the analysis of a single molecule localization microscopy (SMLM) data e.g. dSTORM or PALM. It works on a single molecule coordinates rather than pixelated images. Grafeo uses various pointillist approaches previously described in the literature, e.g. Voronoi Tessellation, Delaunay Triangulation, Ripley’s function. Grafeo does not pretend to be the first to apply these functions for the single molecule data. It was developed to cope with huge amount of data to work in the batch processing mode,. Grafeo was published in Haas et al., 'Single-molecule localization microscopy reveals molecular transactions during RAD51 filament assembly at cellular
+DNA damage sites',  Nucleic Acids Research, 2018,gkx1303, https://doi.org/10.1093/nar/gkx1303
+Grafeo v1beta and its manual are far from being ideal. All the errors and inconsistencies will be corrected in the future releases. More functionalities will be added in the future release. If you have any questions please contact the author via email: inakuflers@wp.pl or Twitter @KalinaHaas. You can download example analysed files here:
+https://drive.google.com/open?id=1jLSHDbAKtExDssiNXFqeJqCCvPWm453z
